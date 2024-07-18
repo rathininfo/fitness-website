@@ -34,11 +34,11 @@ padding: 0;}
 .header-container{
     max-width: 1440px;
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 119) 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 50%, rgb(0, 0, 0) 90%);
 }
 /* start nav section style */
 .nav-container{
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
     padding: 3.56rem 0rem; 
 }
@@ -83,7 +83,7 @@ nav li a{
 /* end nav section style */
 /* start hero section style */
 .hero-container{
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -183,6 +183,12 @@ nav li a{
 .download-btn{
     border: 1px solid rgb(255, 255, 255);
     background-color: transparent;
+    border-radius: 2.5rem;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .hero-right-content img{
@@ -190,6 +196,81 @@ nav li a{
     height: 100%;
 }
 /* end hero section style */
+/* end header section */
+
+/* start main style */
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+}
+
+/* start change your habit style */
+.change-Your-Habits-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.change-Your-Habits-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.change-Your-Habits-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 120px;
+}
+
+.change-Your-Habits-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 14px;
+}
+
+.habib-category-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: 54px;
+}
+
+.habib-category-content img{
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+
+.habit-image-content{
+    text-align: center;
+}
+
+.habit-image-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.habit-image-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    margin: 6px 0px;
+}
+/* end change your habit style */
+
+
+/* end main style */
+
+
 
 
 /* start responsive style */
@@ -253,6 +334,31 @@ nav li a{
         margin-right: -4px;
         top: 40px;
         right: 0;
+    }
+
+
+    .change-Your-Habits-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .change-Your-Habits-content{
+        width: 100%;
+    }
+
+    .change-Your-Habits-title{
+        font-size: 2.2rem;
+    }
+
+    .habib-category-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .habit-image-content{
+        margin-top: 20px;
     }
     
   }
