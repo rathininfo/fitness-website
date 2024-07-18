@@ -21,7 +21,6 @@ padding: 0;}
 .button-primary{
     background: rgb(230, 83, 60);
     border-radius: 2.5rem;
-    border-radius: 46px;
     padding: 8px 20px 8px 20px;
     border: none;
     font-size: 1rem;
@@ -234,7 +233,7 @@ nav li a{
     margin-top: 14px;
 }
 
-.habib-category-content{
+.habit-category-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +241,7 @@ nav li a{
     margin: 54px;
 }
 
-.habib-category-content img{
+.habit-category-content img{
     border-radius: 50%;
     margin-bottom: 26px;
 }
@@ -266,6 +265,63 @@ nav li a{
     margin: 6px 0px;
 }
 /* end change your habit style */
+
+/* Start Run an Extra Mile Easily style */
+.run-an-extra-mile-container{
+    width: 85%;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.run-an-extra-mile-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 54px;
+    gap: 20%;
+}
+
+.run-an-extra-mile-left-content{
+    width: 40%;
+}
+
+.run-an-extra-mile-right-content img{
+    width: 100%;
+    border-radius: 18px;
+
+}
+
+.run-an-extra-mile-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    width: 80%;
+}
+
+.run-an-extra-mile-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+}
+
+.join-btn{
+    margin-top: 24px;
+    padding: 14px 60px;
+    background: rgb(230, 83, 60);
+    border-radius: 2.5rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+/* End Run an Extra Mile Easily style */
 
 
 /* end main style */
@@ -351,7 +407,7 @@ nav li a{
         font-size: 2.2rem;
     }
 
-    .habib-category-content{
+    .habit-category-content{
         display: flex;
         flex-direction: column;
         gap: 10%;
@@ -360,5 +416,30 @@ nav li a{
     .habit-image-content{
         margin-top: 20px;
     }
-    
+
+    /* Start Run an Extra Mile Easily style */
+
+.run-an-extra-mile-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+
+.run-an-extra-mile-left-content{
+    width: 100%;
+}
+
+.run-an-extra-mile-title{
+    font-size: 2rem;
+    width: 90%;
+}
+
+.join-btn{
+    width: 100%;
+    border-radius: 2.5rem;
+    margin-bottom: 30px;
+}
+/* End Run an Extra Mile Easily style */
+
   }
