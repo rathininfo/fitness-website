@@ -329,6 +329,77 @@ nav li a{
 
 /* start unique section style */
 
+.what-we-offer-main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+}
+
+.what-we-offer-container{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.what-we-offer-title{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding: 80px 0px 80px 0px;
+    
+}
+
+.offer-catagory-conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitness-image > img{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.training-title{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.training-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    line-height: 140%;
+}
+
+
+.trainer-left-sight{
+ width: 30%;
+}
+
+.fitness-image{
+    width: 30%;
+}
+
+.trainer-right-sight{
+width: 30%; 
+}
+
+.fa-solid{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(230, 83, 60);
+}
+
+.icon-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 /* end unique section style */
 
 /* start bmi calculation section style */
@@ -413,8 +484,8 @@ td{
 .bmi-right-form{
     width: 50%;
     
+    
 }
-
 
 .bmi-form-title{
     font-size: 2rem;
@@ -439,7 +510,7 @@ td{
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 38.5%;
-    margin: 12px 12px 12px 0px;
+    margin: 8px 8px 8px 0px;
 
 }
 
@@ -450,7 +521,7 @@ td{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 38.5%;
+    width: 39.2%;
 }
 
 .input3{
@@ -460,7 +531,7 @@ td{
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 38.5%;
-    margin: 12px 12px 12px 0px;
+    margin: 8px 8px 8px 0px;
 }
 
 
@@ -472,9 +543,10 @@ td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight:200;
-    margin-top: 12px;
-    width: 48.6%;
+    margin-top: 8px;
+    width: 49.3%;
     border: none;
+    border-right: 16px solid transparent
 }
 
 .activity-factor{
@@ -486,8 +558,9 @@ td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 12px;
+    margin-top: 8px;
     border: none;
+    border-right: 16px solid transparent
 }
 
 
@@ -767,54 +840,124 @@ hr{
 }
 /* end bmi calculation section style */
 
+/* start unique section style */
+
+.what-we-offer-title{
+    font-size: 2.5rem; 
+}
+
+.offer-catagory-conatiner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fitness-image > img{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.training-title{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.training-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    line-height: 140%;
+}
+
+
+.trainer-left-sight{
+ width: 100%;
+}
+
+.fitness-image{
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+}
+
+.trainer-right-sight{
+width: 100%; 
+}
+
+.fa-solid{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(230, 83, 60);
+}
+
+.icon-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* end unique section style */
+
 /* start bmi calculator chart and form style */
 .bmi-calculator-chart-form-main-container{
-    height: 900px;
+    height: 825px;
 }
 
 .bmi-calculator-chart-form-container{
     display: flex;
-   flex-direction: column;
-    gap: 50px;
-    
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bmi-calculator-table-title{
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .bmi-left-chart{
-    width: 85%;
-    border: 2px solid red;
-    
-}
-
-.bmi-calculator-table-title{
-    font-size: 1.8rem;
+    width: 90%;
 }
 
 .bmi-right-form{
-    width: 85%;
-    border: 2px solid red;
-
+    width: 100%;   
 }
+
 .bmi-form-title{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 14px;
+}
+
+.input1{
+    width: 30.5%;
 }
 
 
-form > input{
-    margin-right: 2px;
-    padding: 10px 0px;
-    margin-bottom: 5px;
+.input2{
+    width: 30.5%;
 }
+
+.input3{
+    width: 30.5%;
+}
+
 
 .gender-select{
-    width: 48.5%;
-    padding: 10px 8px;
+    width: 48%;
 }
 
 .activity-factor{
-    margin-top: 2px;
-    width: 99.5%;
+    width: 100%;
 }
-
 
 /* start team section style */
 
