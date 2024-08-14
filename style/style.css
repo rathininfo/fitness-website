@@ -502,14 +502,13 @@ td{
     margin-bottom: 34px;
 }
 
-.input_container{
-    display: flex;
-    gap: 15px;
-    margin: 15px 0;
+form {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
 }
 
-.input_container >input{
-    width: 100%;
+form input{
     padding: 15px 0px 15px 18px;
     border-radius: 8px;
     backdrop-filter: blur(20px);
@@ -527,7 +526,6 @@ td{
     font-weight:200;
     border: none;
     border-right: 16px solid transparent;
-    width: 100%;
 }
 
 .activity-factor{
@@ -540,7 +538,7 @@ td{
     font-weight: 400;
     border: none;
     border-right: 16px solid transparent;
-    width: 100%;
+    grid-column: 1 / span 2;
 }
 
 
@@ -978,24 +976,21 @@ td{
     font-size: 0.8rem;
     margin-bottom: 34px;
 }
-
-.input_container{
+form {
     gap: 10px;
-    margin: 10px 0;
-}
-
-.input_container >input{
-    width: 100%;
-    padding: 12px 0px 12px 15px;
-}
-
+    }
+    
+    form input{
+        width: 100%;
+    }
+    
 .gender-select{
     padding: 12px 0px 12px 15px;
     font-size: 0.8rem;
 }
 
 .activity-factor{
-    padding: 12px 0px 12px 15px;
+    padding: 16px 0px 16px 18px;
     font-size: 0.8rem;
 }
 
@@ -1006,7 +1001,7 @@ td{
 
 .calculate-btn{
     margin-top: 30px;
-    padding: 13px 40px 13px 40px;
+    padding: 12px 40px 12px 40px;
     font-size: 1rem;
 }
 
